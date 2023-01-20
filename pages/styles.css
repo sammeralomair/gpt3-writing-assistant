@@ -80,7 +80,7 @@ body {
 
 .prompt-box {
     border-bottom-width: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.899);
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
@@ -111,6 +111,7 @@ body {
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     text-transform: none;
+    margin-bottom: 25px;
 }
 
 textarea {
@@ -119,7 +120,7 @@ textarea {
 
 
 .prompt-box:focus {
-    border-color:rgba(255, 255, 255, 0.75)
+    border-color:rgba(255, 255, 255, 0.75);
 }
 
 
@@ -321,9 +322,9 @@ textarea {
 }
 
 .output-content p {
-    text-align: center;
+    text-align: left;
     white-space: pre-line;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.817);
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
